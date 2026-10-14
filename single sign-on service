@@ -26,3 +26,10 @@ Resource: NIST Digital Identity Guidelines, Section 3.2.5 – Phishing Resistanc
 Data:
 The Personal Data Protection Law (Royal Decree 6/2022) requires citizens' explicit consent for the collection and processing of their personal data, with a few legal exceptions. It should describe the purpose of the data, ensure data privacy and confidentiality, and employ appropriate security protocols. The authority has to retain data for only as long as is needed, provide a mechanism for citizens to correct or remove data when allowed by law, and notify citizens of data breaches when required by law.
 Resource: Oman Ministry of Transport, Communications and Information Technology – Personal Data Protection - https://mjle.journals.ekb.eg/article_464949.html?lang=en
+
+Misconception in My Track (Data): 
+A widespread misconception is that the government is able to gather and hold all the personal data of all the people without any limits. Indeed, the authority is obliged to adhere to Oman's Personal Data Protection Law, to inform about the need for the data, to safeguard its confidentiality and must observe the rules on consent and retention of data. It shall also remove the data after the completion of the processing purpose, or when it is no longer necessary, unless there is a lawful exception.
+Resource: [Oman Personal Data Protection Law 2022 – Articles 10, 13, 15 and 21] 
+
+Open Question:
+When a lot of government services use the same SSO account, how can all the information held by the government be kept accurate and up-to-date for all citizens?
