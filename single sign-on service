@@ -2,3 +2,15 @@ Version: NAFATH-V1 Track:Data
 
 Overview
 A government single sign-on (SSO) service is a single portal where citizens can sign on with one account for access to multiple government services via a website or mobile application. The Data field is crucial as it is essential for the system to identify users and manage their accounts correctly and securely. The system is designed by software developers, and linked to various government services. The service is easy to use on smartphones thanks to the Mobile field. Networking enables information to flow from the SSO system to other government services. Cybersecurity helps safeguard citizens' accounts and information from hackers and unauthorized use. Artificial Intelligence (AI) can be a great tool for identifying suspicious logon activity and potential security issues. Each of the six fields is essential to ensuring a safe, reliable and easy-to-use service. Effective data management also safeguards citizens' privacy and upholds the accuracy and availability of data in time.
+
+Software:
+The difference between OAuth 2.0 and OpenID Connect (OIDC) is that they are used for different purposes. OAuth 2.0 is geared towards delegated access to resources, whereas OpenID Connect is geared towards user login and authentication. OAuth 2.0 is a protocol that enables an app to access a user's resources, like personal data, as long as the user grants the app permission to access them. OpenID Connect is an extension to OAuth 2.0 that provides an identity layer to confirm the identity of the user. In the government SSO service, the OIDC validates the citizen identity, and the OAuth 2.0 service access allows access to the allowed resources of the government.
+Resource: OAuth 2.0 and OpenID Connect – Preprints.org - https://www.preprints.org/manuscript/202606.1213 
+
+Ai:
+Before launching the AI model, the authority should use the NIST AI Risk Management Framework (AI RMF) to manage key risks. These include false alerts, breaches of attack, unfair decision, privacy breach, and security threat. The accuracy, fairness and reliability of the model should be tested. The authority should also track its performance, secure the citizens' data, and give its staff access to suspicious log-in alerts.
+Resource: NIST AI Risk Management Framework - https://link.springer.com/rwe/10.1007/978-981-95-3658-0_57 
+
+mobile:
+The runtime permission model is a model implemented by Android that restricts access to sensitive information and phone features to apps. The login app requires the necessary permission in order to be able to access protected data, such as contacts or location. It should request permission and access to the user when a feature requires access and hasn't been requested previously. The app should provide a reason for the access and if the access is denied, the app should continue functioning if possible. The article also cautions that some permissions could be granted without re-prompting.
+resource: Android Developers – Request runtime permissions. - https://arxiv.org/abs/2605.27667 
